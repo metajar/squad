@@ -12,6 +12,7 @@ A ready-made team of Claude sub-agents. A **squad-leader** reads your task, pick
 | `frontend` | sonnet | UI, components, accessibility |
 | `tester` | sonnet | Reproduces bugs, writes and runs tests |
 | `devops` | sonnet | Builds, CI/CD, infra, deploys |
+| `network` | sonnet | Network engineering, automation, networking code |
 | `researcher` | sonnet | Current docs, options, prior art |
 | `scout` | haiku | Read-only codebase mapping |
 | `scribe` | haiku | Docs, changelogs, summaries |
