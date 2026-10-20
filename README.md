@@ -37,17 +37,17 @@ If a user asks you to "build a team", "set up the squad" or similar from this re
 **Ask Claude** (inside Claude Code, in your project):
 
 ```
-Build a team from github.com/oorbt/squad
+Build a team from github.com/metajar/squad
 ```
 
 **Or run the script:**
 
 ```bash
 # into the current project
-curl -fsSL https://raw.githubusercontent.com/oorbt/squad/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/metajar/squad/main/install.sh | bash
 
 # into every project on this machine
-curl -fsSL https://raw.githubusercontent.com/oorbt/squad/main/install.sh | bash -s -- --global
+curl -fsSL https://raw.githubusercontent.com/metajar/squad/main/install.sh | bash -s -- --global
 ```
 
 **Or copy by hand:** put `.claude/agents/*.md` in your project's `.claude/agents/` and `SQUAD.md` in the project root.

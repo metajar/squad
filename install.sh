@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Installs the squad into a project (default: current directory).
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/oorbt/squad/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/metajar/squad/main/install.sh | bash
 #   ./install.sh /path/to/project
 #   ./install.sh --global        # install agents to ~/.claude/agents for every project
 set -euo pipefail
 
-REPO_URL="${SQUAD_REPO:-https://github.com/oorbt/squad.git}"
+REPO_URL="${SQUAD_REPO:-https://github.com/metajar/squad.git}"
 TARGET="${1:-.}"
 
 TMP="$(mktemp -d)"
